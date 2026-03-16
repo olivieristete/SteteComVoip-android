@@ -46,5 +46,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Linphone"
+rootProject.name = "STETEcomVOip"
 include(":app")
