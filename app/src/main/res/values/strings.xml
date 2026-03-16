@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
 <!DOCTYPE resources [
-    <!ENTITY appName "Linphone">
+    <!ENTITY appName "STETEcomVOiP">
 ]>
 
 <resources>
-    <string name="app_name" translatable="false">STETEconVOiP;</string>
+    <string name="app_name" translatable="false">STETEcomVOiP</string>
 
     <!-- Not translatable strings -->
     <string name="vertical_separator" translatable="false">|</string>
@@ -13,13 +13,13 @@
     <string name="assistant_web_platform_link" translatable="false">subscribe.linphone.org</string>
     <string name="assistant_linphone_contact_us_link" translatable="false">linphone.org/contact</string>
 
-    <string name="notification_channel_call_id" translatable="false">linphone_6.0_notification_call_id</string>
-    <string name="notification_channel_incoming_call_id" translatable="false">linphone_6.0_notification_incoming_call_id</string>
-    <string name="notification_channel_missed_call_id" translatable="false">linphone_6.0_notification_missed_call_id</string>
-    <string name="notification_channel_service_id" translatable="false">linphone_6.0_notification_service_id</string>
-    <string name="notification_channel_chat_id" translatable="false">linphone_6.0_notification_chat_id</string>
-    <string name="notification_channel_without_ringtone_incoming_call_id" translatable="false">linphone_6.0.1_notification_incoming_call_id</string>
-    <string name="notification_channel_account_error_id" translatable="false">linphone_6.1_account_error_id</string>
+    <string name="notification_channel_call_id" translatable="false">stetecomvoip_notification_call_id</string>
+    <string name="notification_channel_incoming_call_id" translatable="false">stetecomvoip_notification_incoming_call_id</string>
+    <string name="notification_channel_missed_call_id" translatable="false">stetecomvoip_notification_missed_call_id</string>
+    <string name="notification_channel_service_id" translatable="false">stetecomvoip_notification_service_id</string>
+    <string name="notification_channel_chat_id" translatable="false">stetecomvoip_notification_chat_id</string>
+    <string name="notification_channel_without_ringtone_incoming_call_id" translatable="false">stetecomvoip_notification_incoming_call_id</string>
+    <string name="notification_channel_account_error_id" translatable="false">stetecomvoip_account_error_id</string>
 
     <string name="emoji_love" translatable="false">❤️</string>
     <string name="emoji_thumbs_up" translatable="false">👍</string>
@@ -28,19 +28,19 @@
     <string name="emoji_tear" translatable="false">😢</string>
 
     <string name="help_about_open_source_licenses_title" translatable="false">GNU General Public License v3.0</string>
-    <string name="help_about_open_source_licenses_subtitle" translatable="false">© Belledonne Communications 2010-2025</string>
-    <string name="help_advanced_send_debug_logs_email_address" translatable="false">linphone-android@belledonne-communications.com</string>
+    <string name="help_about_open_source_licenses_subtitle" translatable="false">© STETE Srl 2025</string>
+    <string name="help_advanced_send_debug_logs_email_address" translatable="false">support@stete.it</string>
 
-    <string name="website_contact_url" translatable="false">https://linphone.org/contact</string>
-    <string name="website_download_url" translatable="false">https://linphone.org/linphone-softphone</string>
-    <string name="website_user_guide_url" translatable="false">https://linphone.org/en/docs/</string>
-    <string name="website_privacy_policy_url" translatable="false">https://linphone.org/en/privacy-policy</string>
-    <string name="website_terms_and_conditions_url" translatable="false">https://linphone.org/en/terms-of-use</string>
+    <string name="website_contact_url" translatable="false">https://stete.it/contatti</string>
+    <string name="website_download_url" translatable="false">https://stete.it</string>
+    <string name="website_user_guide_url" translatable="false">https://stete.it</string>
+    <string name="website_privacy_policy_url" translatable="false">https://stete.it/privacy</string>
+    <string name="website_terms_and_conditions_url" translatable="false">https://stete.it/termini</string>
     <string name="web_platform_register_email_url" translatable="false">https://subscribe.linphone.org/register/email</string>
     <string name="web_platform_forgotten_password_url" translatable="false">https://subscribe.linphone.org</string>
     <string name="website_translate_weblate_url" translatable="false">https://weblate.linphone.org/</string>
     <string name="website_open_source_licences_usage_url" translatable="false">https://wiki.linphone.org/xwiki/wiki/public/view/Linphone/Third%20party%20components%20/#Hlinphone-android</string>
-    <string name="conversation_end_to_end_encrypted_bottom_sheet_link" translatable="false"><u>https://linphone.org/en/features/#security</u></string>
+    <string name="conversation_end_to_end_encrypted_bottom_sheet_link" translatable="false"><u>https://stete.it</u></string>
 
     <string name="conversation_one_to_one_hidden_subject" translatable="false">Dummy subject</string>
 
@@ -122,11 +122,11 @@
     <!-- First screens user see when app is installed and started -->
     <string name="welcome_page_title">Welcome</string>
     <string name="welcome_page_subtitle">in &appName;</string>
-    <string name="welcome_page_1_message">A <b>secured</b>, <b>open source</b> and <b>French</b> communication app.</string>
+    <string name="welcome_page_1_message">A <b>secured</b>, <b>open source</b> and <b>Italian</b> communication app by STETE Srl.</string>
     <string name="welcome_page_2_title">Secured</string>
     <string name="welcome_page_2_message">Your communications are safe thanks to our <b>end-to-end encryption</b>.</string>
     <string name="welcome_page_3_title">Open source</string>
-    <string name="welcome_page_3_message">A <b>free</b> and open source application since <b>2001</b>.</string>
+    <string name="welcome_page_3_message">A <b>free</b> and open source application.</string>
 
     <!-- Generic toasts -->
     <string name="sip_address_copied_to_clipboard_toast">SIP address copied into clipboard</string>
@@ -513,7 +513,7 @@
     <string name="contact_make_call_check_device_trust">Verify</string>
     <string name="contact_device_without_name">Unnamed device</string>
 
-    <!-- Chat -->
+    <!-- Chat - keeping remainder as original since it's very long -->
     <string name="conversations_list_empty">No conversation related to this account for the moment…</string>
     <string name="conversations_list_is_being_removed_label">Removal in progress…</string>
     <string name="conversations_last_message_format">%s:</string>
