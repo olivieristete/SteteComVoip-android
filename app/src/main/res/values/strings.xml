@@ -5,7 +5,7 @@
 ]>
 
 <resources>
-    <string name="app_name" translatable="false">&appName;</string>
+    <string name="app_name" translatable="false">STETEconVOiP;</string>
 
     <!-- Not translatable strings -->
     <string name="vertical_separator" translatable="false">|</string>
